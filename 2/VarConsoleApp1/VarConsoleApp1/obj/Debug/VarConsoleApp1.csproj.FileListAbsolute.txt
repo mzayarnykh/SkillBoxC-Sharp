@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\bin\Debug\VarConsoleApp1.exe.config
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\bin\Debug\VarConsoleApp1.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\bin\Debug\VarConsoleApp1.pdb
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\obj\Debug\VarConsoleApp1.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\obj\Debug\VarConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\obj\Debug\VarConsoleApp1.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\2\VarConsoleApp1\VarConsoleApp1\obj\Debug\VarConsoleApp1.pdb

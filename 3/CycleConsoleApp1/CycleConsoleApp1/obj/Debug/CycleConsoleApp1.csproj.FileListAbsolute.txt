@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\bin\Debug\CycleConsoleApp1.exe.config
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\bin\Debug\CycleConsoleApp1.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\bin\Debug\CycleConsoleApp1.pdb
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\obj\Debug\CycleConsoleApp1.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\obj\Debug\CycleConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\obj\Debug\CycleConsoleApp1.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\3\CycleConsoleApp1\CycleConsoleApp1\obj\Debug\CycleConsoleApp1.pdb
