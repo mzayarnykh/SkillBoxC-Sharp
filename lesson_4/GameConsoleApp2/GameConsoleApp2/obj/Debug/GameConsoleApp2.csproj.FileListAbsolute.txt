@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\bin\Debug\GameConsoleApp2.exe.config
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\bin\Debug\GameConsoleApp2.exe
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\bin\Debug\GameConsoleApp2.pdb
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.csprojAssemblyReference.cache
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.exe
+C:\Users\user\source\repos\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.pdb
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\bin\Debug\GameConsoleApp2.exe.config
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\bin\Debug\GameConsoleApp2.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\bin\Debug\GameConsoleApp2.pdb
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\GameConsoleApp2\GameConsoleApp2\obj\Debug\GameConsoleApp2.pdb

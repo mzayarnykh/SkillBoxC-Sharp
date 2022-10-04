@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\obj\Debug\ArrayConsoleApp2.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\obj\Debug\ArrayConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\bin\Debug\ArrayConsoleApp2.exe.config
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\bin\Debug\ArrayConsoleApp2.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\bin\Debug\ArrayConsoleApp2.pdb
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\obj\Debug\ArrayConsoleApp2.exe
+C:\Users\user\Desktop\SKILLBOX\C#\projects\4\ArrayConsoleApp2\ArrayConsoleApp2\obj\Debug\ArrayConsoleApp2.pdb
