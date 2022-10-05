@@ -14,22 +14,24 @@ namespace _2MethodConsoleApp3
             Console.WriteLine(Text);
         }
 
+        // Метод реверсированного вывода массива
+        static string[] Reverse(string[] someArray)
+        {
+            Array.Reverse(someArray);
+            return someArray;
+        }
+
         // Метод конвертрования строки в массив и реверсированный вывод
-        static void ToArrayAndInvert(string Text)
+        static string[] SplitText(string Text)
         {
             string[] TextToArray = Text.Split(' ');
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Обычный текст");
-            Console.ResetColor();
-            Console.WriteLine($"{Text}");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Реверсированный массив");
-            Console.ResetColor();
-            Array.Reverse(TextToArray);
-            for (int i = 0; i < TextToArray.Length; i++)
+            string[] reverseArray = new string[TextToArray.Length];
+            for (int i=0; i < TextToArray.Length; i++)
             {
-                Console.Write($"{TextToArray[i]} ");
+                reverseArray[i] = TextToArray[i];
             }
+            Reverse(reverseArray);
+            return reverseArray;
         }
 
         // Метод задержки
@@ -42,10 +44,24 @@ namespace _2MethodConsoleApp3
         static void Main(string[] args)
         {
             Print("Задание 2. Перестановка слов в предложении");
-            Print("Введите предложение:");
-            string entrString = Console.ReadLine();
-            ToArrayAndInvert(entrString);
+            Print("Введите предложение:");            
+            string Text = Console.ReadLine();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Print("Было введено:");
+            Console.ResetColor();
+            Print(Text);
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Print("Реверсия в массиве:");            
+            Console.ResetColor();
+
+            for (int i = 0; i < SplitText(Text).Length; i++)
+            {
+                Console.Write($"{SplitText(Text)[i]} ");
+            }
             Delay();
+
         }
 
 
