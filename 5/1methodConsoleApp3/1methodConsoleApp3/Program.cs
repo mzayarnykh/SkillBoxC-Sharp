@@ -29,12 +29,11 @@ namespace _1methodConsoleApp3
         }
 
         // Метод вывода массива построчно
-        static void PrintLines(string enterString)
+        static void PrintLines(string[] enterString)
         {            
-            string [] arrayToLines = StringToArray(enterString);
-            for (int i = 0; i < arrayToLines.Length; i++)
+            for (int i = 0; i < enterString.Length; i++)
             {
-                Console.WriteLine(arrayToLines[i]);
+                Console.WriteLine(enterString[i]);
             }
         }
 
@@ -48,18 +47,14 @@ namespace _1methodConsoleApp3
             Console.ForegroundColor = ConsoleColor.Green;
             Print("Вывод целиком");
             Console.ResetColor();
-  
-            for (int i=0; i < StringToArray(entrString).Length; i++)
-            {
-                Console.Write($"{StringToArray(entrString)[i]} ");
-            }
-            Console.WriteLine();
+            Print(entrString);
+            string[] strToArray = StringToArray(entrString);
             Delay();
 
             Console.ForegroundColor = ConsoleColor.Green;
             Print("Вывод построчно");
             Console.ResetColor();
-            PrintLines(entrString);
+            PrintLines(strToArray);
             Delay();
         }
 

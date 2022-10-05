@@ -12,26 +12,22 @@ namespace _2MethodConsoleApp3
         static void Print(string Text)
         {
             Console.WriteLine(Text);
-        }
+        }        
 
-        // Метод реверсированного вывода массива
-        static string[] Reverse(string[] someArray)
-        {
-            Array.Reverse(someArray);
-            return someArray;
-        }
-
-        // Метод конвертрования строки в массив и реверсированный вывод
+        // Метод конвертрования строки в массив
         static string[] SplitText(string Text)
         {
             string[] TextToArray = Text.Split(' ');
-            string[] reverseArray = new string[TextToArray.Length];
-            for (int i=0; i < TextToArray.Length; i++)
-            {
-                reverseArray[i] = TextToArray[i];
-            }
-            Reverse(reverseArray);
-            return reverseArray;
+            return TextToArray;
+        }
+
+        // Метод получает массив реверсирует и собирает в строку
+        static string Reverse(string someArray)
+        {
+            string [] splittedArray = SplitText(someArray);
+            Array.Reverse(splittedArray);
+            string reverseDone = string.Join(" ", splittedArray);
+            return reverseDone;
         }
 
         // Метод задержки
@@ -53,13 +49,10 @@ namespace _2MethodConsoleApp3
             Print(Text);
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Print("Реверсия в массиве:");            
+            Print("Реверсия:");            
             Console.ResetColor();
-
-            for (int i = 0; i < SplitText(Text).Length; i++)
-            {
-                Console.Write($"{SplitText(Text)[i]} ");
-            }
+            string reversedText = Reverse(Text);
+            Print(reversedText);
             Delay();
 
         }
