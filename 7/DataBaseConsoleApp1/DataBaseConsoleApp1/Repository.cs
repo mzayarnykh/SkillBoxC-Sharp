@@ -144,6 +144,33 @@ namespace DataBaseConsoleApp1
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Сортировка по ФИО
+        /// </summary>
+        public void IdSorted()
+        {
+            var sortedPeople1 = from p in workers
+                                orderby p.ID
+                                select p;
+
+            foreach (var p in sortedPeople1)
+                Console.WriteLine($"{p.ID} - {p.Fio}");
+            Console.ReadKey(true);
+        }
+
+        /// <summary>
+        /// Сортировка ID
+        /// </summary>
+        public void FioSorted()
+        {
+            var sortedPeople1 = from p in workers
+                                orderby p.Fio
+                                select p;
+
+            foreach (var p in sortedPeople1)
+                Console.WriteLine($"{p.ID} - {p.Fio}");
+            Console.ReadKey(true);
+        }
 
         /// <summary>
         /// Загрузка из файла в массив

@@ -50,6 +50,8 @@ namespace DataBaseConsoleApp1
                 Console.WriteLine("3. Добавить нового сотрудника");
                 Console.WriteLine("4. Удалить сотрудника");
                 Console.WriteLine("5. Фильтрация по датам(от А(включительно) до Б(включительно)");
+                Console.WriteLine("6. Сортировка по ФИО");
+                Console.WriteLine("7. Сортировка по ID");
                 Console.WriteLine("0. Выйти");
                 Console.ResetColor();
                 Console.WriteLine();
@@ -104,6 +106,16 @@ namespace DataBaseConsoleApp1
                     Console.ResetColor();
                     rep.ViewDateFile(fromtDate, toDate);
                     Console.ReadKey();
+                }
+
+                if (open == "6")
+                {
+                    rep.FioSorted();
+                }
+
+                if (open == "7")
+                {
+                    rep.IdSorted();
                 }
 
                 if (open == "0")
