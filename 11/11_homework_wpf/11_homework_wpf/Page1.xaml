@@ -1,0 +1,43 @@
+﻿<Page x:Class="_11_homework_wpf.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_11_homework_wpf"
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="Page1" Height="500">
+
+    <Grid Background="White" Margin="0,0,0,34">
+        <TextBox x:Name="lastnamett" HorizontalAlignment="Left" Height="23" Margin="669,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="firstnamet" HorizontalAlignment="Left" Height="23" Margin="669,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="fathernamet" HorizontalAlignment="Left" Height="23" Margin="669,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="mobilet" HorizontalAlignment="Left" Height="23" Margin="669,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" FontStretch="ExtraCondensed"/>
+        <TextBox x:Name="passportt" HorizontalAlignment="Left" Height="23" Margin="669,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <TextBlock HorizontalAlignment="Left" Margin="669,50,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="669,99,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="669,148,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="669,198,0,0" TextWrapping="Wrap" Text="Мобильный" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="669,247,0,0" TextWrapping="Wrap" Text="Пасспорт" VerticalAlignment="Top"/>
+        <Button x:Name="createBTN" Content="Добавить" HorizontalAlignment="Left" Margin="670,304,0,0" VerticalAlignment="Top" Width="111" Click="createBTNc"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="277" Margin="10,47,0,0" VerticalAlignment="Top" Width="648" SelectionChanged="listView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding LastName}" Width="140" />
+                    <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding FirstName}" Width="140" />
+                    <GridViewColumn Header="Отчество" DisplayMemberBinding="{Binding FatherName}" Width="140" />
+                    <GridViewColumn x:Name="mobileC"  Header="Мобильный" DisplayMemberBinding="{Binding Mobile}" Width="110" />
+                    <GridViewColumn x:Name="passportC" Header="Пасспорт" DisplayMemberBinding="{Binding Passport}" Width="100" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="editBTN" Content="Изменить" HorizontalAlignment="Left" Margin="410,22,0,0" VerticalAlignment="Top" Width="120" Click="editBTNc"/>
+        <Button x:Name="deleteBTN" Content="Удалить" HorizontalAlignment="Left" Margin="538,22,0,0" VerticalAlignment="Top" Width="120" Click="deleteBTNc"/>
+        <TextBlock x:Name="bankLabel" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="395" FontSize="32" Margin="10,2,0,0"><Run Text="C# "/><Run Text="БАНК"/></TextBlock>
+        <PasswordBox x:Name="passportW" Visibility="Visible" HorizontalAlignment="Left" Margin="669,268,0,0" VerticalAlignment="Top" Width="112" Height="23" PasswordChar="*"/>
+        <TextBox x:Name="comment" HorizontalAlignment="Left" Height="115" Margin="10,341,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="771" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="История изменений:" VerticalAlignment="Top" Margin="10,324,0,0"/>
+        <TextBlock x:Name="hellouser" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Height="450" Margin="0,8" Width="800" Background="White" TextAlignment="Center" FontSize="36" Visibility="Visible"><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="Успешный вход"/></TextBlock>
+        <Button x:Name="okbtn" Content="OK" HorizontalAlignment="Left" Margin="272,243,0,0" VerticalAlignment="Top" Width="258" Click="Button_Click" Height="48" FontSize="36"/>
+
+    </Grid>
+</Page>
